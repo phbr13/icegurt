@@ -1,0 +1,112 @@
+.titulo {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 100px;
+}
+
+.cardinfos{
+    flex-direction: column;
+    position: fixed;
+    margin-top: 30px;
+    width: 220px;
+    height: 270px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+
+.titulo  h2{
+    background-color: #00A0FF;
+}
+
+.cu {
+    display: flex;
+    flex-flow: row wrap; 
+}
+
+.album {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.info {
+    height: 100px;
+}
+
+section.module.content69 .container{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+section.module.content69{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: rgb(0,160,255);
+    background: linear-gradient(0deg, rgba(0,160,255,1) 0%, rgba(255,160,255,1) 100%);
+}
+
+section.module.content69 .container {
+    width: 80%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container .card {
+    position: relative;
+    width: 260px;
+    height: 380px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+
+.container .card:hover {
+    cursor: auto;
+}
+
+.cardinfos i{
+    margin: 0;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cardinfos .pai{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.pimpolho {
+    padding: 2px;
+    color: #fff;
+    border-radius: 100px;
+    font-size: medium;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.sos {
+    width: 80%;
+}

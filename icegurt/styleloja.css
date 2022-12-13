@@ -1,0 +1,233 @@
+.cardloja {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+
+.addcarrinho {
+    border-radius: 100px;
+    color: #5b5b5b;
+    border: 2px solid rgb(205, 205, 205);
+    background-color: rgb(205, 205, 205);
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    outline: none;
+    transition: .3s;
+}
+
+.addcarrinho:hover {
+    cursor: pointer;
+}
+
+.addcarrinho:focus {
+    animation: sexo .9s forwards;
+}
+
+@keyframes sexo {
+    from {
+        color: #000;
+        border: 2px solid rgb(0, 0, 0);
+        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.314);
+    }
+    to {
+        color: #5b5b5b;
+        border: 2px solid rgb(205, 205, 205);
+        box-shadow: 0
+    }
+}
+
+.cardloja .content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardloja .content p{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.cardloja .content img{
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.cardacarrinho p{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.produtos div {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.produtos {
+    display: flex;
+}
+
+.preco {
+    display: flex;
+}
+
+.preco input {
+    height: 22px;
+    margin-left: 18px;
+}
+
+.preco input:hover {
+    cursor: pointer;
+}
+
+.produtos2 div{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    margin-left: 10px;
+    display: flex;
+}
+
+.produtos2 img{
+    max-width:20px;
+    max-height:20px;
+    width: auto;
+    height: auto;
+}
+
+.preco div{
+    margin: 0 10px 0 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.cardacarrinho i{
+    margin: 0;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.linho hr{
+    margin: 10px;
+    background-color: #000;
+    border-color: #000;
+}
+
+.produtos2 input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    height: 20px;
+    width: 15px;
+}
+
+.produtos2 {
+    font-size: medium;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.produtos2 input::-webkit-outer-spin-button,
+.produtos2 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.produtos2 input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.cardacarrinho{
+    flex-direction: column;
+    position: fixed;
+    margin-top: 10px;
+    width: 220px;
+    height: 270px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+
+.x {
+    background: yellow;
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.y {
+    background: rgba(148, 148, 167, 0);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    max-width: 440px;
+    flex-flow: row wrap;
+}
+
+.z {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 0, 0, 0);
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.w {
+    margin-top: 10px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.w h2 {
+    background-color: #00A0FF;
+}
+
+.baby {
+    height: 8vh;
+}
+
+section.module.content13{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(0,160,255);
+    background: linear-gradient(0deg, rgba(0,160,255,1) 0%, rgba(255,160,255,1) 100%);
+}
+
+section.module.content13 .container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}

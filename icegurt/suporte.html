@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">    
+    <title>Icegurt</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="scripts/script.js" as="script">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        section.module.parallax-1{
+        background-image: url('https://s2.glbimg.com/fE3DnjeYcZrCQfeBcJq420KnJ1Y=/620x430/e.glbimg.com/og/ed/f/original/2022/01/20/nasa-vhsz50aafas-unsplash.jpg');
+        /* https://www.estudokids.com.br/wp-content/uploads/2014/03/floresta-tropical.jpg */
+        }
+    </style>
+    <header>
+        <nav>
+            <a class="logo" href="/">
+                <img src="images/logo-nova.png" alt="">
+            </a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="loja.html">Compre Já!</a></li>
+                <li><a href="album.html">Álbum de Mascotes</a></li>
+                <li><a href="susten.html">Produção sustentável</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+                <li></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <main>
+            <section class="ondilda" style="height: 8vh;">
+            </section>
+            <section class="module content2">
+                <div class="container">
+                    <div class="saboresss">
+                        <img src="images/74892-8841660.webp" alt="">
+                    </div>
+                    <div>
+                        <h2>Suporte</h2>
+                        <p>Para necessidade de ajuda entre em contanto com: <b>icegurt@gmail.com</b><br>Ou entre em contato conosco por meio da redes sociais logo abaixo
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                    </div>
+                </div>
+            </section>
+            <section class="module content3">
+                <div>
+
+                </div>
+                <div class="linha">
+                    <div class="linha2"></div>
+                </div>
+                <div class="container">
+                    <div>
+                        <img src="images/logo-nova.png" alt="">
+                    </div>
+                </div>
+                <div class="container">
+                    <div>
+                        <a href="https://www.instagram.com/icegurt2022/">
+                            <i class="fa-brands fa-instagram" href="google.com"></i>
+                        </a>
+                        <a href="https://mobile.twitter.com/icegurt8">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@icegurt2022">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="container">
+                    <div>
+                        <p>© 2022 Icegurt</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://kit.fontawesome.com/6f53939fe4.js" crossorigin="anonymous"></script>
+    <script src="scripts/mobile-navbar.js"></script>
+    <script type="text/javascript" src="scripts/vanilla-tilt.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>    
+    <script>
+        VanillaTilt.init(document.querySelector(".card"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare": 1
+	    });
+        VanillaTilt.init(document.querySelector(".sabores"), {
+		max: 10,
+		speed: 300
+	    });
+    </script>
+    <script>
+        window.sr = ScrollReveal({reset: true})
+        sr.reveal('.container', {duration: 1000})
+    </script>
+</body>
+</html>

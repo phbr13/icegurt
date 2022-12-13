@@ -1,0 +1,491 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow: overlay;
+    font-size: larger;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+    color: #000;
+}
+
+h2 {
+    /* font-family: 'Bangers', cursive; */
+    font-family: 'Luckiest Guy', cursive;
+    /* font-family: 'Rubik Wet Paint', cursive; */
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .sabores img{
+    max-width:275px;
+    max-height:275px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+main{
+    display: block;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+}
+
+section.module p{
+    margin-bottom: 40px;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    padding: 40px 0;
+    background: #00A0FF;
+    display: flex;
+}
+
+section.module.content2{
+    padding: 40px 0;
+    background: #FFA0FF;
+    display: flex;
+}
+
+section.module.content13{
+    padding: 40px 0;
+    background: #FFA0FF;
+    display: flex;
+}
+
+section.module.content13 .container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+
+section.module.content3{
+    padding: 40px 0;
+    background: #121212;
+    display: flex;
+}
+
+section.module.content3 img {
+    max-width:70px;
+    max-height:70px;
+    width: auto;
+    height: auto;
+}
+
+section.module.content3 .linha {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+section.module.content3 .linha2{
+    width: 90%;
+    height: 1px;
+    background: #3d3f41;
+}
+
+section.module.content3{
+    display: block;
+    padding: 0;
+    padding-top: 40px;
+}
+
+section.module.content3 a{
+    color: #3d3f41;
+    padding: 10px;
+}
+
+section.module.content3 i{
+    color: #3d3f41;
+    padding: 10px;
+}
+section.module.content3 p{
+    color: #3d3f41;
+}
+
+section.module.content3 .container{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    color: #3d3f41;
+}
+
+section.module.content13 {
+    display: block;
+}
+
+
+section.module.content13 .divInput{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    height: 27px;
+    width: 100%;
+}
+
+section.module.content13 .divButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.button {
+    background-color: #00A0FF;
+    border-style: ridge;
+    border-color:  #00a2ff;
+    height: 30px;
+    width: 130px;
+    border-radius: 100px;
+    transition: 0.3s
+}
+
+.button:hover {
+    border-color: #000;
+    cursor: pointer;
+}
+
+section.module.content13 .inputCodigo {
+    border-radius: 50px;
+    border-color: #00a2ff00;
+    padding: 15px;
+}
+
+section.module.content13 .info {
+    display: flex;
+    justify-content: center;
+}
+
+img.onda{
+    width:100%;
+    max-height:75px;
+}
+
+.ondilda {
+    height: 70px;
+}
+
+img.onda2{
+    width:100%;
+    max-height:75px;
+    transform: scaleY(-1);
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+}
+
+section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module.parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    /* background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -o-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%); */
+}
+
+section.module.parallax-1{
+    background-image: url('https://services.meteored.com/img/article/paisagem-na-antartida-a-mudar-1645560179874_1280.jpg');
+}
+
+section.module.parallax h1{
+    text-align: center;
+}
+
+.container .card {
+    position: relative;
+    width: 260px;
+    height: 380px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+
+.container .card:hover {
+    cursor: pointer;
+}
+
+.container .card .content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card .backcontent{
+    padding: 20px;
+    text-align: center;
+}
+
+.container .card .content h2{
+    text-align: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.container .card .content p{
+    background: none;
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+    margin: 0;
+}
+
+.container .card .content .corrara{
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    padding: 7px;
+    border-radius: 100px;
+}
+
+
+.container .card .content img{
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+.container .card .content .gay2{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #00f2ff00;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(61, 59, 59, 0);    /* color of the scroll thumb */
+    border-radius: 15px;
+}
+
+
+/* ================================================================================================================================================== */
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo img {
+    max-width:10vh;
+    max-height:10vh;
+    width: auto;
+    height: auto;
+}
+
+nav {
+    position: fixed;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    background: #121212;
+    height: 8vh;
+    width: 100%;
+    z-index: 9;
+}
+
+#logoprici {
+    max-width:50vh;
+    max-height:50vh;
+    width: auto;
+    height: auto;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-list li {
+    letter-spacing: 0px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+@media (max-width: 430px) {
+    img.onda{
+        width:100%;
+        max-height:75px;
+    }
+    
+    .ondilda {
+        height: 30px;
+    }
+    
+    img.onda2{
+        width:100%;
+        max-height:75px;
+    }
+}
+
+@media (max-width: 810px) {
+    .container {
+        display: block;
+    }
+    #logoprici {
+        max-width:42vh;
+        max-height:42vh;
+    }
+}
+
+@media (max-width: 1100px) {
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
+    .nav-list {
+        position: fixed;
+        top: 5vh;
+        z-index: 1;
+        right: 0;
+        width: 100vw;
+        height: 92vh;
+        background: #121212;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+    .mobile-menu {
+        display: block;
+    }
+}
+
+.nav-list.active {
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+
+/* 
+#00A0FF
+#FFA0FF 
+*/
+
+.container{
+    visibility: hidden;
+}
+
+.saboresss img {
+    max-width:275px;
+    max-height:275px;
+    width: auto;
+    height: auto;
+    padding-right: 50px;
+}
+
+.saboresss {
+    justify-content: center;
+    align-content: center;
+}
